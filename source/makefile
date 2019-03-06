@@ -2,8 +2,8 @@
 
 CC = g++
 #CFLAGS=-I
-FILESCPP = DirectoryCounter.cpp FileCounter.cpp FileString.cpp VecCounter.cpp main.cpp
-FILESHPP = DirectoryCounter.hpp FileCounter.hpp FileString.hpp VecCounter.hpp Word.hpp
+FILESCPP = DirectoryCounter.cpp FileCounter.cpp VecCounter.cpp main.cpp
+FILESHPP = DirectoryCounter.hpp FileCounter.hpp VecCounter.hpp Word.hpp
 EXENAME = WordCount 
 #default option
 install:
